@@ -4,21 +4,22 @@ import Navbar from "react-bootstrap/Navbar";
 function MyNavbar() {
   return (
     <Navbar
-      expand="lg"
-      className="w-100 d-flex justify-content-between align-items-start"
+      expand="sm"
+      className="w-100 d-flex justify-content-between align-items-start bg-white"
+      fixed="top"
     >
       <div>
         <Navbar.Brand href="#home">Rodrigo</Navbar.Brand>
       </div>
       <div className="w-75">
         <div className="d-flex justify-content-end">
-          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         </div>
         <Navbar.Collapse>
           <Nav
-            className="w-100"
+            className="w-100 center bg-white"
             fill
-            variant="tabs"
+            variant="underline"
             defaultActiveKey="#home"
           >
             <Nav.Link href="#home">Home</Nav.Link>
