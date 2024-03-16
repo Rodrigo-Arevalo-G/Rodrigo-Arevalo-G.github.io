@@ -1,8 +1,21 @@
+.card-div{
+  padding:1rem;
+  border-radius: 25px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.my-image{
+  background-color: white;
+  border-radius: 25px;
+}
+
 a.btn {
-    transition: background-color 0.3s ease;
-  }
+  transition: background-color 0.3s ease;
+}
   
-  a.btn:hover {
-    background-color: #007bff;
-  }
+a.btn:hover {
+  background-color: white;
+}
   
